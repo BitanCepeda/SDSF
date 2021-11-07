@@ -1,12 +1,12 @@
-//Comenzamos la implementaciÛn del algoritmo sobre el software de desarrollo y seguimiento fÌsico
+//Comenzamos la implementaci√≥n del algoritmo sobre el software de desarrollo y seguimiento f√≠sico
 
-#include "stdafx.h"
+
 #include"iostream"
 #include"string"
 #include"conio.h"
 #include"stdio.h"
 using namespace std;
-using namespace System;
+
 
 
 class usuario
@@ -16,17 +16,17 @@ private:
 	    int peso;//Peso del usuario
 		float altura;//Altura del usuario
 		string nombre;//Nombre del usuario
-		char sexo; //GÈnero del usuario
-		int ritmoCardiaco; //N˙mero de pulsaciones
-		int masa;  //Õndice de masa corporal al inicio
+		char sexo; //G√©nero del usuario
+		int ritmoCardiaco; //N√∫mero de pulsaciones
+		int masa;  //√çndice de masa corporal al inicio
 		char prom; //El intervalo de edad del usuario(a,b,c,d)
 		float vel; //Variable de la velocidad inicial
 		float velo; //Variable de la velocidad alcanzada
-		float ganancia;//Porcentaje que se ha ganado despuÈs de la rutina
+		float ganancia;//Porcentaje que se ha ganado despu√©s de la rutina
 		bool level; //Nivel en el que se encuentra el usuario a seguir
-		int nivelmas;//Nivel de Ìndice de masa corporal
-		int nivelC;//Nivel seg˙n las pulsaciones
-		int contra;//ContraseÒa dada por el sistema
+		int nivelmas;//Nivel de √≠ndice de masa corporal
+		int nivelC;//Nivel seg√∫n las pulsaciones
+		int contra;//Contrase√±a dada por el sistema
 		int usuarioP;
 		
 		
@@ -37,7 +37,7 @@ public:
 	void IngresarAltura();
 	void NumeroPulsaciones();
 	void Sexo();
-	void imc();//Hallar Ìndice de masa corporal
+	void imc();//Hallar √≠ndice de masa corporal
 	void velocidad();
 	void resistencia();
 	void explosividad();
@@ -227,7 +227,7 @@ void usuario::velocidad()
 
 	if(level==true)
 	{
-		//Se comprueba que est· en una velocidad promediamente correcta, y se busca el camino m·s corto para llegar al objetivo
+		//Se comprueba que est√° en una velocidad promediamente correcta, y se busca el camino m√°s corto para llegar al objetivo
 		cout<<"Usted cuenta con una velocidad buena, por lo tanto, el seguimiento sera mas corto"<<endl;
 		system("pause");
 	}
@@ -351,7 +351,7 @@ void usuario::velocidad()
 
 	if(level==true)
 	{
-		//Se comprueba que est· en una velocidad promediamente correcta, y se busca el camino m·s corto para llegar al objetivo
+		//Se comprueba que est√° en una velocidad promediamente correcta, y se busca el camino m√°s corto para llegar al objetivo
 		cout<<"Usted cuenta con una velocidad buena, por lo tanto, el seguimiento sera mas corto"<<endl;
 		system("pause");
 
@@ -703,7 +703,7 @@ if(sexo=='M')
 	//2.Sprint
 	//3.Ultimate Frisbee
 	//4.Salto largo
-	//5.Kick Boxing Û boxeo
+	//5.Kick Boxing √≥ boxeo
 		switch(nivelmas)
 	{
 	case 1:
@@ -778,7 +778,7 @@ else
 	//2.Sprint
 	//3.Ultimate Frisbee
 	//4.Salto largo
-	//5.Kick Boxing Û boxeo
+	//5.Kick Boxing √≥ boxeo
 		switch(nivelmas)
 	{
 	case 1:
@@ -853,14 +853,14 @@ cout<<"\n\nApreciado "<<nombre<< " el sistema ha estudiado sus necesidades, y su
 	
 
 	cout<<"1.Practicar su deporte favorito: "<<endl;
-	cout<<"Consiste en jugar o practicar su deporte favorito en los dÌas de rutina"<<endl;
-		cout<<"Trate de dar lo mejor de usted, en cada partido Û encuentro"<<endl;
+	cout<<"Consiste en jugar o practicar su deporte favorito en los d√≠as de rutina"<<endl;
+		cout<<"Trate de dar lo mejor de usted, en cada partido √≥ encuentro"<<endl;
 	cout<<"Debe hacer esto durante "<<M[1][2]<<" semanas\n\n\n"<<endl;
 	system("pause");	
 	system("cls");
 
     cout<<"2.Sprintar: "<<endl;
-	cout<<"En este ejercicio, ser· muy importante su concentraciÛn"<<endl;
+	cout<<"En este ejercicio, ser√° muy importante su concentraci√≥n"<<endl;
 	cout<<"enfoquese, y haga piques fuertes y explosivos de 20 metros"<<endl;
 	cout<<"Si tiene guayos, y es en campo apropiado, seria mejor"<<endl;
 	cout<<"Haga un sprint fuerte, y descanse por tres minutos"<<endl;
@@ -917,13 +917,13 @@ cout<<"\n\nApreciado "<<nombre<< " el sistema ha estudiado sus necesidades, y su
 
 void usuario::reflejos()
 {
-	int dÌas;
+	int d√≠as;
 	
 	system("cls");
 	confirmar();
 	cout<<"Para mejorar sus reflejos, no necesitamos ningun dato suyo"<<endl;
 	cout<<"excepto si es hombre o mujer"<<endl;
-	cout<<"Ac· haremos seguimiento a a su rapidez para responder a acciones"<<endl;
+	cout<<"Ac√° haremos seguimiento a a su rapidez para responder a acciones"<<endl;
 	cout<<"inesperadas y veloces"<<endl;
 	
 	
@@ -1182,7 +1182,7 @@ void usuario::masaMuscular()
 	system("cls");
 
 	cout<<"4.Barras: "<<endl;
-	cout<<"Consiste en subir y bajar el cuerpo, r·pidamente, sobra una varilla horizontal en lo alto"<<endl;
+	cout<<"Consiste en subir y bajar el cuerpo, r√°pidamente, sobra una varilla horizontal en lo alto"<<endl;
 	cout<<"Baje totalmente, y suba hasta que la barra toque su pecho"<<endl;
 	cout<<"haga 10 rondas de a 11 flexiones"<<endl;
 	cout<<"Hagala, y descanse 2 minutos, y continue"<<endl;
@@ -1191,7 +1191,7 @@ void usuario::masaMuscular()
 	system("cls");
 
 	cout<<"5.Fondos: "<<endl;
-	cout<<"Consiste en subir y bajar sobre unas barras paralelas horizontales r·pidamente "<<endl;
+	cout<<"Consiste en subir y bajar sobre unas barras paralelas horizontales r√°pidamente "<<endl;
 	cout<<"sin tocar el suelo"<<endl;
 	cout<<"Haga 7 rondas de a 15 fondos, y descanse un minuto"<<endl;
 	cout<<"Debe hacer esta rutina durante "<<M[5][6]<<" semanas\n\n\n\n"<<endl;
@@ -1206,7 +1206,7 @@ void usuario::masaMuscular()
 	float resta;
 	resta=bicf-bici;
 	ganancia=(resta/bici)*100;
-	cout<<"DespuÈs de este seguimiento de masa muscular, hemos notado su mejoramiento"<<endl;
+	cout<<"Despu√©s de este seguimiento de masa muscular, hemos notado su mejoramiento"<<endl;
 	cout<<"Su mejoramiento es de "<<ganancia<<"%, !FELICITACIONES!"<<endl;
 	system("pause");
 	system("cls");
@@ -1237,7 +1237,7 @@ void usuario::masaMuscular()
 	//Sentadillas 1.
 	//flexion de pierna 2.
 	//Pesas 3.
-	//FlexiÛn brazo 4.
+	//Flexi√≥n brazo 4.
 	//final 6.
 	
 
@@ -1319,7 +1319,7 @@ void usuario::masaMuscular()
 	system("cls");
 
     cout<<"2.Piernas: "<<endl;
-	cout<<"AcuÈstese sobre el suelo, mirando hacia abajo"<<endl;
+	cout<<"Acu√©stese sobre el suelo, mirando hacia abajo"<<endl;
 	cout<<"suba una pierna hacia arriba, y luego la otra rapidamente"<<endl;
 	cout<<"Haga 4 rondas de a 10 flexiones"<<endl;
 	cout<<"Hagala, y descanse 5 minutos, y continue"<<endl;
@@ -1328,15 +1328,15 @@ void usuario::masaMuscular()
 	system("cls");
 
 	cout<<"3.Pesas: "<<endl;
-	cout<<"Coja un peso en su mano, pÛngalo sobre una superficie"<<endl;
-	cout<<"Coja un peso, y subalo y bajelo con un ·ngulo de 45 90 grados en el brazo, rapidamente"<<endl;
+	cout<<"Coja un peso en su mano, p√≥ngalo sobre una superficie"<<endl;
+	cout<<"Coja un peso, y subalo y bajelo con un √°ngulo de 45 90 grados en el brazo, rapidamente"<<endl;
 	cout<<"haga 5 rondas de a 10 flexiones"<<endl;
     cout<<"Hagala, y descanse 2 minutos, y continue"<<endl;
 	cout<<"Debe hacer esta rutina durante "<<M[3][4]<<" semanas\n\n\n"<<endl;
 	system("pause");
 	system("cls");
 
-	cout<<"4.FlexiÛn de brazo: "<<endl;
+	cout<<"4.Flexi√≥n de brazo: "<<endl;
 	cout<<"Consiste en subir y bajar el cuerpo, rapidamente, sostenida con ambos brazos"<<endl;
 	cout<<"sobre una superficie a la altura de su cintura,baje totalmente, "<<endl;
 	cout<<"y suba hasta que la superficie toque su pecho, haga 8 rondas de a 11 flexiones"<<endl;
@@ -1355,7 +1355,7 @@ void usuario::masaMuscular()
 	float resta;
 	resta=bicf-bici;
 	ganancia=(resta/bici)*100;
-	cout<<"DespuÈs de este seguimiento de masa muscular, hemos notado su mejoramiento"<<endl;
+	cout<<"Despu√©s de este seguimiento de masa muscular, hemos notado su mejoramiento"<<endl;
 	cout<<"Su mejoramiento es de "<<ganancia<<"%, !FELICITACIONES!"<<endl;
 	system("pause");
 	system("cls");
@@ -1376,7 +1376,7 @@ void usuario::masaMuscular()
 	system("cls");
 
     cout<<"2.Piernas: "<<endl;
-	cout<<"AcuÈstese sobre el suelo, mirando hacia abajo, amarre un peso a sus pies"<<endl;
+	cout<<"Acu√©stese sobre el suelo, mirando hacia abajo, amarre un peso a sus pies"<<endl;
 	cout<<"suba una pierna hacia arriba, y luego la otra lentamente"<<endl;
 	cout<<"Haga 5 rondas de a 8 flexiones"<<endl;
 	cout<<"Hagala, y descanse 5 minutos, y continue"<<endl;
@@ -1385,15 +1385,15 @@ void usuario::masaMuscular()
 	system("cls");
 
 	cout<<"3.Pesas: "<<endl;
-	cout<<"Coja un peso en su mano, pÛngalo sobre una superficie"<<endl;
-	cout<<"Coja un peso, y subalo y bajelo con un ·ngulo de 45 90 grados en el brazo, lentamente"<<endl;
+	cout<<"Coja un peso en su mano, p√≥ngalo sobre una superficie"<<endl;
+	cout<<"Coja un peso, y subalo y bajelo con un √°ngulo de 45 90 grados en el brazo, lentamente"<<endl;
 	cout<<"haga 6 rondas de a 8 flexiones"<<endl;
     cout<<"Hagala, y descanse 2 minutos, y continue"<<endl;
 	cout<<"Debe hacer esta rutina durante "<<M[3][4]<<" semanas\n\n\n"<<endl;
 	system("pause");
 	system("cls");
 
-	cout<<"4.FlexiÛn de brazo: "<<endl;
+	cout<<"4.Flexi√≥n de brazo: "<<endl;
 	cout<<"Consiste en subir y bajar el cuerpo, lentamente, sostenida con ambos brazos"<<endl;
 	cout<<"sobre una superficie a la altura de su cintura,baje totalmente, "<<endl;
 	cout<<"y suba hasta que la superficie toque su pecho, haga 5 rondas de a 11 flexiones"<<endl;
@@ -1412,7 +1412,7 @@ void usuario::masaMuscular()
 	float resta;
 	resta=bicf-bici;
 	ganancia=(resta/bici)*100;
-	cout<<"DespuÈs de este seguimiento de masa muscular, hemos notado su mejoramiento"<<endl;
+	cout<<"Despu√©s de este seguimiento de masa muscular, hemos notado su mejoramiento"<<endl;
 	cout<<"Su mejoramiento es de "<<ganancia<<"%, !FELICITACIONES!"<<endl;
 	system("pause");
 	system("cls");
